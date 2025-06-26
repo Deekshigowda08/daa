@@ -1,21 +1,22 @@
 import React from 'react';
 
 const fileList = [
-  "file1.pdf",
-  "file2.pdf",
-  "file3.pdf",
-  "file4.pdf",
-  "file5.pdf",
-  "file6.pdf",
-  "file7.pdf",
-  "file8.pdf",
-  "file9.pdf",
-  "file10.pdf",
-  "file11.pdf",
-  "file12.pdf",
-  "file13.pdf",
-  "file14.pdf",
-  "file15.pdf",
+  "BFS.java",
+  "Binarytree.java",
+  "Dfs.java",
+  "fdij.java",
+  "Edge.java",
+  "Heapsort.java",
+  "hoorspool.java",
+  "knapsack.java",
+  "kruskal.java",
+  "Mergesort.java",
+  "nqueen.java",
+  "prins.java",
+  "Quicksort.java",
+  "sum.java",
+  "travelings.java",
+  "Warhall.java",
 ];
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
         {fileList.map((filename, index) => (
           <li key={index} style={{ margin: '10px 0' }}>
             <a
-              href={`/files/${filename}`}
+              href={`/${filename}`}
               download
               style={{ textDecoration: 'none', color: 'blue' }}
             >
