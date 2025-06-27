@@ -41,13 +41,14 @@ const file={
 const Home = () => {
   return (
     <div style={{ padding: '1rem', fontFamily: 'Arial' }}>
-      <h1>Download Files And Enjoy Bro...</h1>
+      <h1 className='text-2xl font-bold'>Download Files And Enjoy Bro...</h1>
       <ul>
         {fileList.map((filename, index) => (
           <li key={index} style={{ margin: '10px 0' }}>
             <a
               href={`/${filename}`}
               download
+              className='text-blue-500 hover:underline text-lg'
               style={{ textDecoration: 'none', color: 'blue' }}
             >
               ⬇️ {file[filename]}
