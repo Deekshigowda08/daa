@@ -20,7 +20,7 @@ public class Dfs {
 	 
 	 public static void main(String[] arg) {
 			
-		System.out.println("Noduuuuuu");
+		System.out.println("Output of DFS is :");
 		boolean[] visted= new boolean[4];
 		dfs(0,visted);
 				
