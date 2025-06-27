@@ -5,7 +5,6 @@ const fileList = [
   "Binarytree.java",
   "Dfs.java",
   "dij.java",
-  "Edge.java",
   "Heapsort.java",
   "hoorspool.java",
   "knapsack.java",
