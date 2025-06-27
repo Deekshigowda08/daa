@@ -4,7 +4,7 @@ const fileList = [
   "BFS.java",
   "Binarytree.java",
   "Dfs.java",
-  "fdij.java",
+  "dij.java",
   "Edge.java",
   "Heapsort.java",
   "hoorspool.java",
